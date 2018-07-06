@@ -143,6 +143,16 @@
 			$('.toggle').click(function(){
 				$('.navigation').fadeToggle();
 			})
+
+			$('body').css({
+				'background-position-y': -window.scrollY/3
+			})
+
+			$(document).scroll(function(event) {
+				$('body').css({
+					'background-position-y': -window.scrollY/3
+				})
+			})
 		
 		})
 	

@@ -7,6 +7,7 @@
  
 body {
 	font-family: 'Poppins', sans-serif;
+	color: rgb(73, 73, 73);
 }
 
 
@@ -33,7 +34,7 @@ body .name {
 .line {
 	width: 490px;
 	height: 1px;
-	background-color: #505050;
+	background-color: #D6D6D6;
 	float: right;
 	margin-top: 38px;
 	margin-bottom: 26px;
@@ -46,7 +47,6 @@ body .name {
 }
 
 .navigation nav ul li {
-	display: inline-block;
 	float: right;
 	text-decoration: none;
 	padding-left: 19px;
@@ -62,7 +62,7 @@ body .name {
 }
 
 .navigation nav ul li a:hover {
-	color: #59aeff;
+	color: #d3d3d3;
 	cursor: pointer;
 }
 
@@ -130,8 +130,8 @@ body .name {
 }
 
 .reserva .swiper-slide {
-	background-color: #595959;
-	color: white;
+	background-color: #c4c4c4;
+	
 }
 
 .reserva .swiper-pagination-bullet-active {
@@ -191,7 +191,7 @@ footer {
 }
 
 .contact p:hover {
-	color: #59aeff;
+	color: #d3d3d3;
 	cursor: pointer;
 }
 
@@ -209,6 +209,7 @@ footer {
 
 .last p {
 	text-align: center;
+	font-size: 12px;
 }
 
 .last {
@@ -246,7 +247,6 @@ footer {
 	}
 	
 	.navigation nav ul li {
-		display: inline-block;
 		float: right;
 		text-decoration: none;
 		padding-left: 19px;
@@ -426,26 +426,3 @@ footer {
 	
 }
 
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	

@@ -14,9 +14,9 @@ body {
 	font-family: 'Poppins', sans-serif;
 	background: url("../img/pozadina3.jpg");
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	color: rgb(73, 73, 73);
 }
 
 
@@ -42,7 +42,7 @@ body .name {
 .firstline {
 	width: 490px;
 	height: 1px;
-	background-color: #505050;
+	background-color: #D6D6D6;
 	float: right;
 	margin-top: 38px;
 	margin-bottom: 26px;
@@ -55,7 +55,7 @@ body .name {
 }
 
 .navigation nav ul li {
-	display: inline-block;
+	
 	float: right;
 	text-decoration: none;
 	padding-left: 19px;
@@ -71,7 +71,7 @@ body .name {
 }
 
 .navigation nav ul li a:hover {
-	color: #59aeff;
+	color: #d6e2ec;
 	cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ content {
 }
 
 .title h1:hover {
-	color: #59aeff;
+	color: #d6e2ec;
 	cursor: pointer;
 }
 
@@ -134,7 +134,7 @@ content {
 .secondline {
 	width: 680px;
 	height: 1px;
-	background-color: #505050;
+	background-color: #D6D6D6;
 	float: right;
 	position: absolute;
 	right: 0;
@@ -165,7 +165,7 @@ content {
 }
 
 .topics nav ul li a:hover {
-	color: #59aeff;
+	color: #d6e2ec;
 	cursor: pointer;
 }
 
@@ -187,7 +187,7 @@ content {
 }
 
 .events h1:hover {
-	color: #59aeff;
+	color: #d6e2ec;
 	cursor: pointer;
 }
 
@@ -238,6 +238,8 @@ footer {
 
 }
 
+
+
 .icons ul li {
 	display: inline-block;
 	padding: 0px;
@@ -248,6 +250,10 @@ footer {
 	margin-left: 30px;
 	margin-right: 46px;
 	margin-top: 8px;
+}
+
+.icons ul li img {
+	opacity: 0.7;
 }
 
 .icons ul li :hover {
@@ -263,7 +269,7 @@ footer {
 	height: 1px;
 	width: 100%;
 	float: left;
-	background-color: black;
+	background-color: #D6D6D6;
 	margin-top: 61px;
 
 }
@@ -273,7 +279,7 @@ footer {
 	height: 1px;
 	width: 100%;
 	float: left;
-	background-color: black;
+	background-color: #D6D6D6;
 
 }
 
@@ -296,7 +302,7 @@ footer {
 }
 
 .navigation-2 nav ul li a:hover {
-	color: #59aeff;
+	color: #d6e2ec;
 	cursor: pointer;
 }
 
@@ -308,6 +314,7 @@ footer {
 	position: absolute;
 	bottom: 10px;
 	width: 100%;
+	font-size: 12px;
 }
 
 
@@ -322,7 +329,7 @@ footer {
 	position: absolute;
     content: "";
     padding-bottom: 20px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #737373;
     width: 30px;
     bottom: 0;
     margin: 0 83px;
@@ -357,13 +364,9 @@ footer {
 		margin-bottom: 20px;
 	}
 
-	.firstline {
-		width: 510px;
-
-	}
+	
 	
 	.navigation nav ul li {
-		display: inline-block;
 		float: right;
 		text-decoration: none;
 		padding-left: 19px;
@@ -481,10 +484,7 @@ footer {
 	.first p {
 		font-size: 13.4px;
 	}
-	
-	.secondline {
-		width: 530px;
-	}
+
 	
 	.topics nav ul li a {
 		font-size: 13.4px;
@@ -578,16 +578,6 @@ footer {
 		margin-left: 0px;
 	}
 	
-	.firstline	{
-		display: none;
-		
-	}
-	
-	
-	
-	.secondline {
-		display: none;
-	}
 	
 	.title {
 		padding: 50px;
